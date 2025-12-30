@@ -1,0 +1,78 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #ff6b6b, #ffa07a);
+  padding: 20px;
+}
+
+.login-box {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  animation: fadeIn 1s ease;
+}
+
+.login-box h2 {
+  color: #ff6b6b;
+  margin-bottom: 10px;
+}
+
+.login-box p {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.login-box input:focus {
+  border-color: #ff6b6b;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255,107,107,0.6);
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background: #ff6b6b;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.login-box button:hover {
+  /* background: #e65c5c; */
+  background-image:url("https://as2.ftcdn.net/v2/jpg/05/64/97/31/1000_F_564973106_xO0n1BvNmsFy2Sj2SK2Uy2pzH3hDqeDy.jpg");
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.links a {
+  color: #ff6b6b;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}

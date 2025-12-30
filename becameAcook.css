@@ -1,0 +1,95 @@
+/* Header & Navigation */
+header {
+  background-color: #ff6b6b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+}
+
+/* Section Styling */
+.cook-section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.cook-section h1 {
+  font-size: 36px;
+  color: #ff6b6b;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Benefit Cards */
+.cook-benefits {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.benefit {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.benefit:hover {
+  transform: translateY(-5px);
+}
+
+.benefit h3 {
+  color: #ff6b6b;
+  margin-bottom: 10px;
+}
+
+/* Join Instructions */
+.register-info h2 {
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.register-info p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #eee;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+}
